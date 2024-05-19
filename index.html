@@ -6,7 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Happy birthday project</title>
-  
+  <script>
+    function checkScreenWidth() {
+        if (window.innerWidth >= 1120) { // Adjust the pixel value as needed
+            window.location.href = 'trial.html';
+        }
+    }
+    
+    // Check screen width on window resize
+    window.addEventListener('resize', checkScreenWidth);
+    
+    // Initial check on page load
+    document.addEventListener('DOMContentLoaded', checkScreenWidth);
+</script>
   <link rel="stylesheet" href="trial.css">
 </head>
 
@@ -29,18 +41,6 @@
   </div>
 </div>
 </div>
-<script>
-    function checkScreenWidth() {
-        if (window.innerWidth >= 1120) { // Adjust the pixel value as needed
-            window.location.href = 'trial.html';
-        }
-    }
-    
-    // Check screen width on window resize
-    window.addEventListener('resize', checkScreenWidth);
-    
-    // Initial check on page load
-    document.addEventListener('DOMContentLoaded', checkScreenWidth);
-</script>
+
 </body>
 </html>
