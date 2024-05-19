@@ -16,7 +16,7 @@
 
     function checkScreenWidth() {
         if (window.innerWidth < 1120) { // Adjust the pixel value as needed
-            window.location.href = 'trial.html';
+            window.location.href = 'index.html';
         }
     }
     
