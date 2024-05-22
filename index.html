@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -8,41 +9,44 @@
   <title>Happy birthday project</title>
   <script>
     function checkScreenWidth() {
-        if (window.innerWidth >= 1120) { // Adjust the pixel value as needed
-            window.location.href = 'trial.html';
-        }
+      if (window.innerWidth >= 1120) { // Adjust the pixel value as needed
+        window.location.href = 'trial.html';
+      }
     }
-    
+
     // Check screen width on window resize
     window.addEventListener('resize', checkScreenWidth);
-    
+
     // Initial check on page load
     document.addEventListener('DOMContentLoaded', checkScreenWidth);
-</script>
+  </script>
   <link rel="stylesheet" href="trial.css">
 </head>
 
 <body>
-<div class="body">
- <div class="birthdayCard">
-<div class="cardFront"><h3 class="happy">Happy Birthday Dear Rajashri!!</h3>
-<div class="balloons">
-  <div class="balloonOne"></div>
-  <div class="balloonTwo"></div>
-  <div class="balloonThree"></div>
-  <div class="balloonFour"></div>
-</div>
-</div>
-<div class="cardInside">
-    <h3 class="back">HAPPY BIRTHDAY!</h3>
-    <p contenteditable="false">Dear friend,</p> 
-    <p contenteditable="false">Happy birthday!! I hope your day is filled with lots of love and laughter!
-      You've really become a close friend of mine in this few months, our paths may differ after college but meeting you was the best co-incidence ever happened to me. I wish this friendly bond remain intact in near futures.
-    </p>
-    <p contenteditable="true" class="name">Sagar</p>
+  <div class="body">
+    <div class="birthdayCard">
+      <div class="cardFront">
+        <h3 class="happy">Happy Birthday Dear Rajashri!!</h3>
+        <div class="balloons">
+          <div class="balloonOne"></div>
+          <div class="balloonTwo"></div>
+          <div class="balloonThree"></div>
+          <div class="balloonFour"></div>
+        </div>
+      </div>
+      <div class="cardInside">
+        <h3 class="back">HAPPY BIRTHDAY!</h3>
+        <p contenteditable="false">Dear friend,</p>
+        <p contenteditable="false">Happy birthday!! I hope your day is filled with lots of love and laughter!
+          You've really become a close friend of mine in this few months. Though our paths may differ after college but meeting
+          you was the best co-incidence ever happened to me. I wish this friendly bond remain intact in near futures.💞💞
+        </p>
+        <p contenteditable="true" class="name">Sagar</p>
+      </div>
+    </div>
   </div>
-</div>
-</div>
 
 </body>
+
 </html>
