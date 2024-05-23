@@ -25,3 +25,6 @@
     
     // Initial check on page load
     document.addEventListener('DOMContentLoaded', checkScreenWidth);
+
+
+    
