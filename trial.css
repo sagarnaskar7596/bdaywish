@@ -1,6 +1,7 @@
 body {
-    /* background-color: #073b4c; */
-    background-color: #e3f023;
+     background-color: #eeff00; 
+    /* background-color: #e3f023;  */
+   
    }
    
    .body {
@@ -29,7 +30,9 @@ body {
    
    .cardFront {
     position: relative;
-    background-color: #fff;
+    background-color: #fff; 
+    border-radius: 10px;
+
     /* width: 250px;
     height: 350px; */
     width: 300px;
@@ -130,6 +133,7 @@ body {
    .cardInside {
     position: absolute;
     background-color: #fff;
+    border-radius: 10px;
     /* width: 250px;
     height: 350px; */
     width: 300px;
