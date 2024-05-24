@@ -1,7 +1,7 @@
 body {
-     background-color: #eeff00; 
+     /* background-color: #eeff00;   */
     /* background-color: #e3f023;  */
-   
+    background-image: url(./bg2.png);
    }
    
    .body {
