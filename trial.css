@@ -27,7 +27,7 @@ body {
     transform: perspective(2500px);
     transition: 1s;
     left:-28px;
-    top:30px;
+    top:50px;
    }
    
    .cardFront {
